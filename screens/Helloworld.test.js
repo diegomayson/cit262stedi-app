@@ -1,6 +1,8 @@
 import hello from "../utils/helloworld.js"
 
-it ("should say Hello Diego",()=>{
+it("should say Hello Diego",()=>{
     const helloString = hello;
-    exp
+    console.log(helloString);
+
+    exptct (helloString).toBe("Diego");
 })
